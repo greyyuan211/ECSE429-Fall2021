@@ -1,0 +1,9 @@
+usr/lib/
+usr/lib/triplegeo
+usr/lib/triplegeo/bin
+usr/lib/triplegeo/xslt
+usr/lib/triplegeo/lib
+usr/lib/triplegeo/lib/vendor
+usr/lib/triplegeo/test
+usr/lib/triplegeo/test/data
+usr/lib/triplegeo/test/conf

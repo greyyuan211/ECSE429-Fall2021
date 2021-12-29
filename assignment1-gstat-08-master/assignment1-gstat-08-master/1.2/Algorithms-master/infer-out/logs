@@ -1,0 +1,511 @@
+[40028][      debug] Loading models took 35.158ms
+[40031][      debug] Sqlite write daemon: starting up
+[40031][      debug] Sqlite write daemon: set up complete, waiting for connections
+[40028][environment] CWD = /Users/srx/Downloads/Algorithms-master
+[40028][environment] No .inferconfig file found
+[40028][environment] Project root = /Users/srx/Downloads/Algorithms-master
+[40028][environment] INFER_ARGS =   @/var/folders/_k/kl6ss3ls5034p_jxfq6568jm0000gn/T/args.tmp.779d44
+[40028][environment] command line arguments:   infer run -- mvn clean install
+[40028][environment]                           -D.enforcer.skip=true
+[40028][environment] Could not retrieve available memory (possibly not on Linux)
+[40028][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[40028][environment] Scheduler: file
+[40028][environment] Cores used: 2
+[40028][environment] Infer version v1.1.0
+[40028][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[40028][environment] 
+[40028][   progress] Capturing in maven mode...
+[40028][      debug] Running maven capture:
+[40028][      debug] mvn 'clean' 'install' '-D.enforcer.skip=true' '-P' 'infer-capture'
+
+[40052][environment] CWD = /Users/srx/Downloads/Algorithms-master
+[40052][environment] No .inferconfig file found
+[40052][environment] Project root = /Users/srx/Downloads/Algorithms-master
+[40052][environment] INFER_ARGS =   @/var/folders/_k/kl6ss3ls5034p_jxfq6568jm0000gn/T/args.tmp.7f4d35
+[40052][environment] command line arguments:   /usr/local/Cellar/infer/1.1.0_1/lib/infer/infer/bin/infer
+[40052][environment]                           @/private/var/folders/_k/kl6ss3ls5034p_jxfq6568jm0000gn/T/org.codehaus.plexus.compiler.javac.JavacCompiler11297342923816757401arguments
+[40052][environment] Could not retrieve available memory (possibly not on Linux)
+[40052][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[40052][      debug] Current working directory: '/Users/srx/Downloads/Algorithms-master'
+[40052][      debug] Trying to execute: javac '-J-Duser.language=en' '@/private/var/folders/_k/kl6ss3ls5034p_jxfq6568jm0000gn/T/org.codehaus.plexus.compiler.javac.JavacCompiler11297342923816757401arguments' '@/Users/srx/Downloads/Algorithms-master/infer-out/tmp/javac_args.tmp.20e0a8' 2>'/Users/srx/Downloads/Algorithms-master/infer-out/tmp/javac.tmp.954d7a.out'
+[40052][      debug] *** Success. Logs:
+[40052][      debug] Translating 86 source files (89 classes)
+[40052][      debug] done capturing all files
+[40052][      debug] GC stats for capture:
+[40052][      debug]   minor_words: 1.26951e+07
+[40052][      debug]   promoted_words: 759234
+[40052][      debug]   major_words: 840307
+[40052][      debug]   minor_collections: 18
+[40052][      debug]   major_collections: 3
+[40052][      debug]   compactions: 0
+[40052][      debug]   top_heap_words: 1006592
+[40052][      debug]   
+[40052][      debug] GC stats for main_process_full:
+[40052][      debug]   minor_words: 1.4257e+07
+[40052][      debug]   promoted_words: 922305
+[40052][      debug]   major_words: 1.02499e+06
+[40052][      debug]   minor_collections: 28
+[40052][      debug]   major_collections: 6
+[40052][      debug]   compactions: 1
+[40052][      debug]   top_heap_words: 1006592
+[40052][      debug]   
+[40052][environment] Scheduler: file
+[40052][environment] Cores used: 2
+[40052][environment] 
+[40067][environment] CWD = /Users/srx/Downloads/Algorithms-master
+[40067][environment] No .inferconfig file found
+[40067][environment] Project root = /Users/srx/Downloads/Algorithms-master
+[40067][environment] INFER_ARGS =   @/var/folders/_k/kl6ss3ls5034p_jxfq6568jm0000gn/T/args.tmp.968bb1
+[40067][environment] command line arguments:   /usr/local/Cellar/infer/1.1.0_1/lib/infer/infer/bin/infer
+[40067][environment]                           @/private/var/folders/_k/kl6ss3ls5034p_jxfq6568jm0000gn/T/org.codehaus.plexus.compiler.javac.JavacCompiler9826391997446642263arguments
+[40067][environment] Could not retrieve available memory (possibly not on Linux)
+[40067][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[40067][      debug] Current working directory: '/Users/srx/Downloads/Algorithms-master'
+[40067][      debug] Trying to execute: javac '-J-Duser.language=en' '@/private/var/folders/_k/kl6ss3ls5034p_jxfq6568jm0000gn/T/org.codehaus.plexus.compiler.javac.JavacCompiler9826391997446642263arguments' '@/Users/srx/Downloads/Algorithms-master/infer-out/tmp/javac_args.tmp.146658' 2>'/Users/srx/Downloads/Algorithms-master/infer-out/tmp/javac.tmp.f9f86d.out'
+[40067][      debug] *** Success. Logs:
+[40067][      debug] Translating 80 source files (80 classes)
+[40067][      debug] done capturing all files
+[40067][      debug] GC stats for capture:
+[40067][      debug]   minor_words: 2.048e+07
+[40067][      debug]   promoted_words: 1.32974e+06
+[40067][      debug]   major_words: 1.51006e+06
+[40067][      debug]   minor_collections: 27
+[40067][      debug]   major_collections: 5
+[40067][      debug]   compactions: 0
+[40067][      debug]   top_heap_words: 1531904
+[40067][      debug]   
+[40067][      debug] GC stats for main_process_full:
+[40067][      debug]   minor_words: 2.20416e+07
+[40067][      debug]   promoted_words: 1.49282e+06
+[40067][      debug]   major_words: 1.69475e+06
+[40067][      debug]   minor_collections: 37
+[40067][      debug]   major_collections: 8
+[40067][      debug]   compactions: 1
+[40067][      debug]   top_heap_words: 1531904
+[40067][      debug]   
+[40067][environment] Scheduler: file
+[40067][environment] Cores used: 2
+[40067][environment] [40028][      debug] GC stats for capture:
+[40028][      debug]   minor_words: 12129
+[40028][      debug]   promoted_words: 0
+[40028][      debug]   major_words: 0
+[40028][      debug]   minor_collections: 0
+[40028][      debug]   major_collections: 0
+[40028][      debug]   compactions: 0
+[40028][      debug]   top_heap_words: 760832
+[40028][      debug]   
+[40028][environment] Parallel jobs: 2
+[40028][   progress] Found 166 source files to analyze in /Users/srx/Downloads/Algorithms-master/infer-out
+[40074][   progress] src/main/java/com/github/pedrovgs/problem6/MergeSortedArrays.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem15/BinaryTreeInOrder.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem15/BinaryTreeInOrder.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem17/BinaryTreeEqualsTest.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem6/MergeSortedArrays.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem56/IsRotationUsingIsSubstringTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem56/IsRotationUsingIsSubstringTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem59/DeleteListNodeTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem59/DeleteListNodeTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem29/AreAnagramsTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem29/AreAnagramsTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/linkedlist/ListNode.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/linkedlist/ListNode.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem2/VectorScalarProductTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem2/VectorScalarProductTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem24/SortedArrayToBSTTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem24/SortedArrayToBSTTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem24/SortedArrayToBST.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem24/SortedArrayToBST.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem23/RemoveComments.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem17/BinaryTreeEqualsTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem56/IsRotationUsingIsSubstring.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem56/IsRotationUsingIsSubstring.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem79/MergeSort.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem23/RemoveComments.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/pair/Pair.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/pair/Pair.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem26/PalindromesTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem26/PalindromesTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem49/CombinationsOfChangeTest.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem79/MergeSort.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem61/SumListsTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem49/CombinationsOfChangeTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem22/ReverseLinkedList.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem22/ReverseLinkedList.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem46/BinaryTreeSerializationTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem61/SumListsTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem8/SplitArray.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem46/BinaryTreeSerializationTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem71/ReverseBinaryNumberTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem71/ReverseBinaryNumberTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem5/DivideUsingSubtraction.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem8/SplitArray.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem14/BinaryTreePreOrder.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem5/DivideUsingSubtraction.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem1/BitsCounterTest.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem14/BinaryTreePreOrder.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem46/BinaryTreeSerialization.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem46/BinaryTreeSerialization.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem35/AsteriskRegularExpression.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem1/BitsCounterTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem32/Contains.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem35/AsteriskRegularExpression.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem18/IsBSTTest.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem32/Contains.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem68/IsEven.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem68/IsEven.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem48/WordSearchTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem18/IsBSTTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem21/LowestCommonAncestor.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem48/WordSearchTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem62/PalindromeList.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem21/LowestCommonAncestor.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem60/PartitionListTest.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem62/PalindromeList.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem7/FibonacciNumbers.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem7/FibonacciNumbers.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem36/AvlTreeMedianTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem36/AvlTreeMedianTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem75/SelectionSort.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem75/SelectionSort.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem65/IsTreeBalanced.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem65/IsTreeBalanced.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem31/FindLongestConsecutiveSequence.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem60/PartitionListTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem19/BinaryTreeDepth.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem19/BinaryTreeDepth.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem25/AnagramsTest.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem31/FindLongestConsecutiveSequence.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem2/Vector.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem2/Vector.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem76/InsertionSort.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem76/InsertionSort.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem11/IntToString.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem25/AnagramsTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem17/BinaryTreeEquals.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem17/BinaryTreeEquals.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem16/BinaryTreePostOrderTest.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem11/IntToString.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem13/BinaryTreeByLevel.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem13/BinaryTreeByLevel.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem4/SquareRootTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem4/SquareRootTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem51/ReverseString.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem16/BinaryTreePostOrderTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem73/SubtractAddingTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem73/SubtractAddingTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem48/WordSearch.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem48/WordSearch.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/binarytree/BinaryNode.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem51/ReverseString.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem4/SquareRoot.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem4/SquareRoot.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem66/TreeToListByLevel.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/binarytree/BinaryNode.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem69/BitsToTransform.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem69/BitsToTransform.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem65/IsTreeBalancedTest.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem66/TreeToListByLevel.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem37/PathCalculator.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem65/IsTreeBalancedTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem5/DivideUsingSubtractionTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem5/DivideUsingSubtractionTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem18/IsBST.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem18/IsBST.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem54/RotateMatrix.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem54/RotateMatrix.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem34/DotRegularExpression.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem37/PathCalculator.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem29/AreAnagrams.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem29/AreAnagrams.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem35/AsteriskRegularExpressionTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem35/AsteriskRegularExpressionTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem16/BinaryTreePostOrder.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem16/BinaryTreePostOrder.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem74/BubbleSort.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem74/BubbleSort.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem57/RemoveListDuplicatedElements.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem34/DotRegularExpression.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem59/DeleteListNode.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem59/DeleteListNode.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem62/PalindromeListTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem62/PalindromeListTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem71/ReverseBinaryNumber.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem71/ReverseBinaryNumber.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem50/UniqueChars.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem57/RemoveListDuplicatedElements.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem37/PathCalculatorTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem37/PathCalculatorTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem47/ReturnChangeTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem47/ReturnChangeTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem33/SimpleRegularExpression.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem50/UniqueChars.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem30/ScientificNotationTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem30/ScientificNotationTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem55/RewriteRowAndColumnsWithZeros.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem33/SimpleRegularExpression.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem77/HelloWorldWithoutSemicolon.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem77/HelloWorldWithoutSemicolon.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem80/QuickSort.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem80/QuickSort.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem79/MergeSortTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem79/MergeSortTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem44/FindMinNumberAtPosition.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem44/FindMinNumberAtPosition.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem51/ReverseStringTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem51/ReverseStringTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem36/AvlTreeMedian.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem36/AvlTreeMedian.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem23/FakeFile.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem23/FakeFile.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem67/MergeBinaryNumbersTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem67/MergeBinaryNumbersTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem76/InsertionSortTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem76/InsertionSortTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem27/ReverseSentence.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem55/RewriteRowAndColumnsWithZeros.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem40/MoveElementsToPositions.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem27/ReverseSentence.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem57/RemoveListDuplicatedElementsTest.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem40/MoveElementsToPositions.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem72/FindTheMissingNumberTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem72/FindTheMissingNumberTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem6/MergeSortedArraysTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem6/MergeSortedArraysTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem19/BinaryTreeDepthTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem57/RemoveListDuplicatedElementsTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem11/IntToStringTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem11/IntToStringTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem12/MoveZerosInArrayTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem19/BinaryTreeDepthTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem74/BubbleSortTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem74/BubbleSortTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem14/BinaryTreePreOrderTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem14/BinaryTreePreOrderTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem28/FindSums.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem12/MoveZerosInArrayTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem70/ReverseOrderOfBinaryNumber.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem70/ReverseOrderOfBinaryNumber.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem3/SumBinaryNumberTest.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem28/FindSums.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem38/PathToEveryLeaf.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem38/PathToEveryLeaf.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem34/DotRegularExpressionTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem34/DotRegularExpressionTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem26/Palindromes.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem26/Palindromes.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem8/SplitArrayTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem3/SumBinaryNumberTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem53/CompressString.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem8/SplitArrayTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem67/MergeBinaryNumbers.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem67/MergeBinaryNumbers.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem50/UniqueCharsTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem50/UniqueCharsTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/sortingalgorithm/SortingAlgorithm.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/sortingalgorithm/SortingAlgorithm.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem21/LowestCommonAncestorTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem21/LowestCommonAncestorTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem38/PathToEveryLeafTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem38/PathToEveryLeafTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem43/CombinationOfIntegersTest.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem53/CompressString.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem68/IsEvenTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem68/IsEvenTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem13/BinaryTreeByLevelTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem43/CombinationOfIntegersTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem64/GetTheElementInTheMiddleOfTheList.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem13/BinaryTreeByLevelTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem78/AutoBoxingTrickTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem78/AutoBoxingTrickTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem43/CombinationOfIntegers.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem43/CombinationOfIntegers.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem75/SelectionSortTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem75/SelectionSortTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem31/FindLongestConsecutiveSequenceTest.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem64/GetTheElementInTheMiddleOfTheList.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem60/PartitionList.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem60/PartitionList.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/sortingalgorithms/SortingAlgorithmTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem31/FindLongestConsecutiveSequenceTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem73/SubtractAdding.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem73/SubtractAdding.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem39/MultiplyArrayElements.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/sortingalgorithms/SortingAlgorithmTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem70/ReverseOrderOfBinaryNumberTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem70/ReverseOrderOfBinaryNumberTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem41/GoThroughMatrixInSpiral.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem41/GoThroughMatrixInSpiral.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem1/BitsCounter.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem1/BitsCounter.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem39/MultiplyArrayElementsTest.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem39/MultiplyArrayElements.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem52/ReplaceSpaces.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem39/MultiplyArrayElementsTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem45/FindNthMostRepeatedElementTest.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem52/ReplaceSpaces.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem78/AutoBoxingTrick.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem78/AutoBoxingTrick.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem27/ReverseSentenceTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem27/ReverseSentenceTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem64/GetTheElementInTheMiddleOfTheListTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem64/GetTheElementInTheMiddleOfTheListTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem10/RemoveDuplicates.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem45/FindNthMostRepeatedElementTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem55/RewriteRowAndColumnsWithZerosTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem55/RewriteRowAndColumnsWithZerosTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem3/SumBinaryNumbers.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem3/SumBinaryNumbers.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem61/SumLists.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem61/SumLists.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem20/MultiplicationWithoutMultiply.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem20/MultiplicationWithoutMultiply.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem30/ScientificNotation.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem30/ScientificNotation.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem69/BitsToTransformTest.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem10/RemoveDuplicates.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem41/GoThroughMatrixInSpiralTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem69/BitsToTransformTest.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem25/Anagrams.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem25/Anagrams.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem63/ConstantComplexityOrderStack.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem63/ConstantComplexityOrderStack.java DONE
+[40075][   progress] src/main/java/com/github/pedrovgs/problem42/FloodFill.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem41/GoThroughMatrixInSpiralTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem49/CombinationsOfChange.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem49/CombinationsOfChange.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem58/FindKthElement.java starting
+[40075][   progress] src/main/java/com/github/pedrovgs/problem42/FloodFill.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem42/FloodFillTest.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem58/FindKthElement.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem45/FindNthMostRepeatedElement.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem45/FindNthMostRepeatedElement.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem32/ContainsTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem32/ContainsTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem28/FindSumsTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem28/FindSumsTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem40/MoveElementsToPositionsTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem40/MoveElementsToPositionsTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem10/RemoveDuplicatesTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem42/FloodFillTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem7/FibonacciNumbersTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem7/FibonacciNumbersTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem33/SimpleRegularExpressionTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem10/RemoveDuplicatesTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem58/FindKthElementTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem33/SimpleRegularExpressionTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem20/MultiplicationWithoutMultiplyTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem20/MultiplicationWithoutMultiplyTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem53/CompressStringTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem53/CompressStringTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem9/FactorialTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem9/FactorialTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem63/ConstantComplexityOrderStackTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem63/ConstantComplexityOrderStackTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem80/QuickSortTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem80/QuickSortTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem52/ReplaceSpacesTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem52/ReplaceSpacesTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem44/FindMinNumberAtPositionTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem58/FindKthElementTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem47/ReturnChange.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem47/ReturnChange.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem72/FindTheMissingNumber.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem72/FindTheMissingNumber.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem23/RemoveCommentsTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem23/RemoveCommentsTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem66/TreeToListByLevelTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem44/FindMinNumberAtPositionTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem15/BinaryTreeInOrderTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem66/TreeToListByLevelTest.java DONE
+[40074][   progress] src/test/java/com/github/pedrovgs/problem22/ReverseLinkedListTest.java starting
+[40075][   progress] src/test/java/com/github/pedrovgs/problem15/BinaryTreeInOrderTest.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem54/RotateMatrixTest.java starting
+[40074][   progress] src/test/java/com/github/pedrovgs/problem22/ReverseLinkedListTest.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem12/MoveZerosInArray.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem12/MoveZerosInArray.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem2/VectorScalarProduct.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem2/VectorScalarProduct.java DONE
+[40074][   progress] src/main/java/com/github/pedrovgs/problem9/Factorial.java starting
+[40074][   progress] src/main/java/com/github/pedrovgs/problem9/Factorial.java DONE
+[40075][   progress] src/test/java/com/github/pedrovgs/problem54/RotateMatrixTest.java DONE
+[40028][      debug] Backend stats:
+[40028][      debug]   summary_file_try_load= 13183
+[40028][      debug]   summary_read_from_disk= 421
+[40028][      debug]   summary_cache_hits= 31384 (70%)
+[40028][      debug]   summary_cache_misses= 13183
+[40028][      debug]   ondemand_procs_analyzed= 1025
+[40028][      debug]   ondemand_local_cache_hits= 19211 (92%)
+[40028][      debug]   ondemand_local_cache_misses= 1507
+[40028][      debug]   proc_locker_lock_time_user= 0.00000000
+[40028][      debug]   proc_locker_lock_time_sys= 0.00000000
+[40028][      debug]   proc_locker_lock_time_wall= 0.00000000
+[40028][      debug]   proc_locker_unlock_time_user= 0.00000000
+[40028][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[40028][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[40028][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[40028][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[40028][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[40028][      debug]   restart_scheduler_total_time_user= 0.00000000
+[40028][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[40028][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[40028][      debug]   
+[40028][      debug] GC stats for backend_stats.gc_stats_add.:
+[40028][      debug]   minor_words: 1.34765e+10
+[40028][      debug]   promoted_words: 4.68907e+07
+[40028][      debug]   major_words: 5.83134e+07
+[40028][      debug]   minor_collections: 12902
+[40028][      debug]   major_collections: 108
+[40028][      debug]   compactions: 0
+[40028][      debug]   top_heap_words: 6628352
+[40028][      debug]   
+[40028][      debug] GC stats for backend_stats.gc_stats_max.:
+[40028][      debug]   minor_words: 6.76131e+09
+[40028][      debug]   promoted_words: 2.38195e+07
+[40028][      debug]   major_words: 2.97969e+07
+[40028][      debug]   minor_collections: 6472
+[40028][      debug]   major_collections: 57
+[40028][      debug]   compactions: 0
+[40028][      debug]   top_heap_words: 3545600
+[40028][      debug]   
+[40028][      debug] Average over 2 processes
+[40028][      debug] GC stats for backend_stats.gc_stats_average.:
+[40028][      debug]   minor_words: 6.73823e+09
+[40028][      debug]   promoted_words: 2.34453e+07
+[40028][      debug]   major_words: 2.91567e+07
+[40028][      debug]   minor_collections: 6451
+[40028][      debug]   major_collections: 54
+[40028][      debug]   compactions: 0
+[40028][      debug]   top_heap_words: 3314176
+[40028][      debug]   
+[40028][      debug] Analysis phase finished in 23.333s
+[40028][      debug] backend_stats.scheduler_process_analysis_time_user= 0.29323800
+[40028][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.15046400
+[40028][      debug] backend_stats.scheduler_process_analysis_time_wall= 23.33274108
+[40028][      debug] GC stats for analysis_scheduler:
+[40028][      debug]   minor_words: 3.43892e+07
+[40028][      debug]   promoted_words: 238997
+[40028][      debug]   major_words: 247703
+[40028][      debug]   minor_collections: 36
+[40028][      debug]   major_collections: 6
+[40028][      debug]   compactions: 1
+[40028][      debug]   top_heap_words: 1006592
+[40028][      debug]   
+[40028][      debug] GC stats for report:
+[40028][      debug]   minor_words: 424665
+[40028][      debug]   promoted_words: 6318
+[40028][      debug]   major_words: 28077
+[40028][      debug]   minor_collections: 1
+[40028][      debug]   major_collections: 0
+[40028][      debug]   compactions: 0
+[40028][      debug]   top_heap_words: 1006592
+[40028][      debug]   
+[40028][      debug] GC stats for main_process_full:
+[40028][      debug]   minor_words: 3.66576e+07
+[40028][      debug]   promoted_words: 408319
+[40028][      debug]   major_words: 1.00328e+06
+[40028][      debug]   minor_collections: 47
+[40028][      debug]   major_collections: 9
+[40028][      debug]   compactions: 2
+[40028][      debug]   top_heap_words: 1006592
+[40028][      debug]   
+[40031][      debug] Sqlite write daemon: terminating

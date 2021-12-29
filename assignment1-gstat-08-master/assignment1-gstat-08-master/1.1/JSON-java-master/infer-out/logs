@@ -1,0 +1,393 @@
+[30204][      debug] Loading models took 32.416ms
+[30207][      debug] Sqlite write daemon: starting up
+[30207][      debug] Sqlite write daemon: set up complete, waiting for connections
+[30204][environment] CWD = /Users/srx/Downloads/JSON-java-master
+[30204][environment] No .inferconfig file found
+[30204][environment] Project root = /Users/srx/Downloads/JSON-java-master
+[30204][environment] INFER_ARGS =   @/var/folders/_k/kl6ss3ls5034p_jxfq6568jm0000gn/T/args.tmp.e6f96a
+[30204][environment] command line arguments:   infer run -- ./gradlew build
+[30204][environment] Could not retrieve available memory (possibly not on Linux)
+[30204][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[30204][environment] Scheduler: file
+[30204][environment] Cores used: 2
+[30204][environment] Infer version v1.1.0
+[30204][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[30204][environment] 
+[30204][   progress] Capturing in gradle mode...
+[30204][   progress] javac-stderr: javac 11.0.8
+[30204][environment] java version "11.0.8" 2020-07-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.8+10-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.8+10-LTS, mixed mode)
+  
+------------------------------------------------------------
+Gradle 6.3
+------------------------------------------------------------
+
+Build time:   2020-03-24 19:52:07 UTC
+Revision:     bacd40b727b0130eeac8855ae3f9fd9a0b207c60
+
+Kotlin:       1.3.70
+Groovy:       2.5.10
+Ant:          Apache Ant(TM) version 1.10.7 compiled on September 1 2019
+JVM:          11.0.8 (Oracle Corporation 11.0.8+10-LTS)
+OS:           Mac OS X 10.14.6 x86_64
+
+
+[30204][environment] 
+[30204][   progress] [GRADLE] ./gradlew --debug build >'/Users/srx/Downloads/JSON-java-master/infer-out/tmp/gradle_output.tmp.d9182c.log'
+[30204][   progress] [GRADLE] running gradle took 7.084s
+[30204][   progress] [30204][environment] java version "11.0.8" 2020-07-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.8+10-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.8+10-LTS, mixed mode)
+  
+------------------------------------------------------------
+Gradle 6.3
+------------------------------------------------------------
+
+Build time:   2020-03-24 19:52:07 UTC
+Revision:     bacd40b727b0130eeac8855ae3f9fd9a0b207c60
+
+Kotlin:       1.3.70
+Groovy:       2.5.10
+Ant:          Apache Ant(TM) version 1.10.7 compiled on September 1 2019
+JVM:          11.0.8 (Oracle Corporation 11.0.8+10-LTS)
+OS:           Mac OS X 10.14.6 x86_64
+
+
+[30204][environment] 
+[30204][   progress] [GRADLE] ./gradlew --debug build >'/Users/srx/Downloads/JSON-java-master/infer-out/tmp/gradle_output.tmp.d9182c.log'
+[30204][   progress] [GRADLE] running gradle took 7.084s
+[30204][   progress] 
+
+[30204][environment] java version "11.0.8" 2020-07-14 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.8+10-LTS)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.8+10-LTS, mixed mode)
+  
+------------------------------------------------------------
+Gradle 6.3
+------------------------------------------------------------
+
+Build time:   2020-03-24 19:52:07 UTC
+Revision:     bacd40b727b0130eeac8855ae3f9fd9a0b207c60
+
+Kotlin:       1.3.70
+Groovy:       2.5.10
+Ant:          Apache Ant(TM) version 1.10.7 compiled on September 1 2019
+JVM:          11.0.8 (Oracle Corporation 11.0.8+10-LTS)
+OS:           Mac OS X 10.14.6 x86_64
+
+
+[30204][environment] 
+[30204][   progress] [GRADLE] ./gradlew --debug build >'/Users/srx/Downloads/JSON-java-master/infer-out/tmp/gradle_output.tmp.d9182c.log'
+[30204][   progress] [GRADLE] running gradle took 7.084s
+[30204][   progress] 
+
+[30250][      debug] Loading models took 32.364ms
+[30249][      debug] Loading models took 34.274ms
+[30250][environment] CWD = /Users/srx/Downloads/JSON-java-master
+[30250][environment] No .inferconfig file found
+[30250][environment] Project root = /Users/srx/Downloads/JSON-java-master
+[30250][environment] INFER_ARGS =   @/var/folders/_k/kl6ss3ls5034p_jxfq6568jm0000gn/T/args.tmp.82e57e
+[30250][environment] command line arguments:   /usr/local/Cellar/infer/1.1.0_1/lib/infer/infer/bin/infer
+[30250][environment]                           capture -j 1 -o
+[30250][environment]                           /Users/srx/Downloads/JSON-java-master/infer-out/tmp/capture_target.tmp.4ZtIpG
+[30250][environment]                           -- javac
+[30250][environment]                           @/Users/srx/Downloads/JSON-java-master/infer-out/tmp/gradle_files.tmp.281f73
+[30250][environment]                           -source 1.7 -target 1.7 -d
+[30250][environment]                           /Users/srx/Downloads/JSON-java-master/build/classes/java/test
+[30250][environment]                           -encoding UTF-8 -h
+[30250][environment]                           /Users/srx/Downloads/JSON-java-master/build/generated/sources/headers/java/test
+[30250][environment]                           -g -sourcepath  -proc:none -s
+[30250][environment]                           /Users/srx/Downloads/JSON-java-master/build/generated/sources/annotationProcessor/java/test
+[30250][environment]                           -XDuseUnsharedTable=true -classpath
+[30250][environment]                           /Users/srx/Downloads/JSON-java-master/build/classes/java/main:/Users/srx/Downloads/JSON-java-master/build/resources/main:/Users/srx/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/srx/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.1.0/397bd8076ff9581ad2ebad787da45ba76ee39112/json-path-2.1.0.jar:/Users/srx/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-core/1.9.5/c3264abeea62c4d2f367e21484fbb40c7e256393/mockito-core-1.9.5.jar:/Users/srx/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/srx/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.13/7fcf30c25b8f4a9379b9dad0d3f487b25272c026/slf4j-api-1.7.13.jar:/Users/srx/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.2/53200a9d80fff3106dc435de1350cdd20b757819/json-smart-2.2.jar:/Users/srx/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/1.0/9b473564e792c2bdf1449da1f0b1b5bff9805704/objenesis-1.0.jar:/Users/srx/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.1/a527213f2fea112a04c9bdf0ec0264e34104cd08/accessors-smart-1.1.jar:/Users/srx/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar
+[30250][environment] Could not retrieve available memory (possibly not on Linux)
+[30250][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[30249][environment] CWD = /Users/srx/Downloads/JSON-java-master
+[30249][environment] No .inferconfig file found
+[30249][environment] Project root = /Users/srx/Downloads/JSON-java-master
+[30249][environment] INFER_ARGS =   @/var/folders/_k/kl6ss3ls5034p_jxfq6568jm0000gn/T/args.tmp.942e30
+[30249][environment] command line arguments:   /usr/local/Cellar/infer/1.1.0_1/lib/infer/infer/bin/infer
+[30249][environment]                           capture -j 1 -o
+[30249][environment]                           /Users/srx/Downloads/JSON-java-master/infer-out/tmp/capture_target.tmp.dvtSnm
+[30249][environment]                           -- javac
+[30249][environment]                           @/Users/srx/Downloads/JSON-java-master/infer-out/tmp/gradle_files.tmp.c79f64
+[30249][environment]                           -source 1.7 -target 1.7 -d
+[30249][environment]                           /Users/srx/Downloads/JSON-java-master/build/classes/java/main
+[30249][environment]                           -encoding UTF-8 -h
+[30249][environment]                           /Users/srx/Downloads/JSON-java-master/build/generated/sources/headers/java/main
+[30249][environment]                           -g -sourcepath  -proc:none -s
+[30249][environment]                           /Users/srx/Downloads/JSON-java-master/build/generated/sources/annotationProcessor/java/main
+[30249][environment]                           -XDuseUnsharedTable=true -classpath 
+[30249][environment] Could not retrieve available memory (possibly not on Linux)
+[30249][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[30250][      debug] Current working directory: '/Users/srx/Downloads/JSON-java-master'
+[30249][      debug] Current working directory: '/Users/srx/Downloads/JSON-java-master'
+[30250][      debug] Trying to execute: javac '-J-Duser.language=en' '@/Users/srx/Downloads/JSON-java-master/infer-out/tmp/gradle_files.tmp.281f73' '@/Users/srx/Downloads/JSON-java-master/infer-out/tmp/capture_target.tmp.4ZtIpG/tmp/javac_args.tmp.e94d86' 2>'/Users/srx/Downloads/JSON-java-master/infer-out/tmp/capture_target.tmp.4ZtIpG/tmp/javac.tmp.a21612.out'
+[30249][      debug] Trying to execute: javac '-J-Duser.language=en' '@/Users/srx/Downloads/JSON-java-master/infer-out/tmp/gradle_files.tmp.c79f64' '@/Users/srx/Downloads/JSON-java-master/infer-out/tmp/capture_target.tmp.dvtSnm/tmp/javac_args.tmp.dd9bf7' 2>'/Users/srx/Downloads/JSON-java-master/infer-out/tmp/capture_target.tmp.dvtSnm/tmp/javac.tmp.784207.out'
+[30249][      debug] *** Success. Logs:
+[30249][      debug] Translating 22 source files (27 classes)
+[30249][      debug] done capturing all files
+[30249][      debug] GC stats for capture:
+[30249][      debug]   minor_words: 1.88685e+07
+[30249][      debug]   promoted_words: 1.59369e+06
+[30249][      debug]   major_words: 1.97389e+06
+[30249][      debug]   minor_collections: 38
+[30249][      debug]   major_collections: 5
+[30249][      debug]   compactions: 0
+[30249][      debug]   top_heap_words: 1761792
+[30249][      debug]   
+[30249][      debug] GC stats for main_process_full:
+[30249][      debug]   minor_words: 2.07029e+07
+[30249][      debug]   promoted_words: 1.75706e+06
+[30249][      debug]   major_words: 2.7015e+06
+[30249][      debug]   minor_collections: 48
+[30249][      debug]   major_collections: 8
+[30249][      debug]   compactions: 1
+[30249][      debug]   top_heap_words: 1761792
+[30249][      debug]   
+[30249][environment] Scheduler: file
+[30249][environment] Cores used: 1
+[30249][environment] [30250][      debug] *** Success. Logs:
+[30250][      debug] Translating 39 source files (54 classes)
+[30250][      debug] done capturing all files
+[30250][      debug] GC stats for capture:
+[30250][      debug]   minor_words: 4.21065e+07
+[30250][      debug]   promoted_words: 3.98003e+06
+[30250][      debug]   major_words: 5.24205e+06
+[30250][      debug]   minor_collections: 115
+[30250][      debug]   major_collections: 7
+[30250][      debug]   compactions: 0
+[30250][      debug]   top_heap_words: 4077568
+[30250][      debug]   
+[30250][      debug] GC stats for main_process_full:
+[30250][      debug]   minor_words: 4.39417e+07
+[30250][      debug]   promoted_words: 4.14356e+06
+[30250][      debug]   major_words: 5.96981e+06
+[30250][      debug]   minor_collections: 125
+[30250][      debug]   major_collections: 10
+[30250][      debug]   compactions: 1
+[30250][      debug]   top_heap_words: 4077568
+[30250][      debug]   
+[30250][environment] Scheduler: file
+[30250][environment] Cores used: 1
+[30250][environment] 
+[30204][      debug] [GRADLE] infer processed 2 lines in 3.805s
+[30204][      debug] GC stats for capture:
+[30204][      debug]   minor_words: 1.07418e+06
+[30204][      debug]   promoted_words: 271790
+[30204][      debug]   major_words: 307530
+[30204][      debug]   minor_collections: 2
+[30204][      debug]   major_collections: 2
+[30204][      debug]   compactions: 1
+[30204][      debug]   top_heap_words: 1006592
+[30204][      debug]   
+[30204][   progress] Merging captured Buck targets...
+[30204][   progress] Merging type environments took 9.195ms, of which 7.926ms were spent storing the global tenv
+[30204][   progress] Merging 2 captured Buck targets took 51.409ms
+[30204][   progress] 
+[30204][environment] Parallel jobs: 2
+[30204][   progress] Found 61 source files to analyze in /Users/srx/Downloads/JSON-java-master/infer-out
+[30256][   progress] src/test/java/org/json/junit/Util.java starting
+[30255][   progress] src/test/java/org/json/junit/data/MyLocaleBean.java starting
+[30255][   progress] src/test/java/org/json/junit/data/MyLocaleBean.java DONE
+[30255][   progress] src/test/java/org/json/junit/JSONMLTest.java starting
+[30256][   progress] src/test/java/org/json/junit/Util.java DONE
+[30256][   progress] src/test/java/org/json/junit/data/MyBigNumberBean.java starting
+[30256][   progress] src/test/java/org/json/junit/data/MyBigNumberBean.java DONE
+[30256][   progress] src/main/java/org/json/JSONPointer.java starting
+[30256][   progress] src/main/java/org/json/JSONPointer.java DONE
+[30256][   progress] src/test/java/org/json/junit/JSONPointerTest.java starting
+[30256][   progress] src/test/java/org/json/junit/JSONPointerTest.java DONE
+[30256][   progress] src/test/java/org/json/junit/CookieTest.java starting
+[30256][   progress] src/test/java/org/json/junit/CookieTest.java DONE
+[30256][   progress] src/test/java/org/json/junit/JSONStringerTest.java starting
+[30255][   progress] src/test/java/org/json/junit/JSONMLTest.java DONE
+[30255][   progress] src/test/java/org/json/junit/EnumTest.java starting
+[30256][   progress] src/test/java/org/json/junit/JSONStringerTest.java DONE
+[30256][   progress] src/test/java/org/json/junit/data/Singleton.java starting
+[30256][   progress] src/test/java/org/json/junit/data/Singleton.java DONE
+[30256][   progress] src/main/java/org/json/XML.java starting
+[30256][   progress] src/main/java/org/json/XML.java DONE
+[30256][   progress] src/main/java/org/json/HTTP.java starting
+[30256][   progress] src/main/java/org/json/HTTP.java DONE
+[30256][   progress] src/main/java/org/json/JSONArray.java starting
+[30255][   progress] src/test/java/org/json/junit/EnumTest.java DONE
+[30255][   progress] src/test/java/org/json/junit/data/WeirdList.java starting
+[30255][   progress] src/test/java/org/json/junit/data/WeirdList.java DONE
+[30255][   progress] src/test/java/org/json/junit/data/MyPublicClass.java starting
+[30255][   progress] src/test/java/org/json/junit/data/MyPublicClass.java DONE
+[30255][   progress] src/test/java/org/json/junit/data/MyEnumClass.java starting
+[30255][   progress] src/test/java/org/json/junit/data/MyEnumClass.java DONE
+[30255][   progress] src/test/java/org/json/junit/data/SingletonEnum.java starting
+[30255][   progress] src/test/java/org/json/junit/data/SingletonEnum.java DONE
+[30255][   progress] src/main/java/org/json/HTTPTokener.java starting
+[30255][   progress] src/main/java/org/json/HTTPTokener.java DONE
+[30255][   progress] src/main/java/org/json/JSONObject.java starting
+[30256][   progress] src/main/java/org/json/JSONArray.java DONE
+[30256][   progress] src/test/java/org/json/junit/data/MyBeanCustomNameInterface.java starting
+[30256][   progress] src/test/java/org/json/junit/data/MyBeanCustomNameInterface.java DONE
+[30256][   progress] src/test/java/org/json/junit/JSONArrayTest.java starting
+[30255][   progress] src/main/java/org/json/JSONObject.java DONE
+[30255][   progress] src/main/java/org/json/JSONTokener.java starting
+[30255][   progress] src/main/java/org/json/JSONTokener.java DONE
+[30255][   progress] src/test/java/org/json/junit/PropertyTest.java starting
+[30256][   progress] src/test/java/org/json/junit/JSONArrayTest.java DONE
+[30256][   progress] src/test/java/org/json/junit/data/MyJsonString.java starting
+[30256][   progress] src/test/java/org/json/junit/data/MyJsonString.java DONE
+[30256][   progress] src/test/java/org/json/junit/CDLTest.java starting
+[30255][   progress] src/test/java/org/json/junit/PropertyTest.java DONE
+[30255][   progress] src/main/java/org/json/JSONStringer.java starting
+[30255][   progress] src/main/java/org/json/JSONStringer.java DONE
+[30255][   progress] src/test/java/org/json/junit/data/GenericBean.java starting
+[30255][   progress] src/test/java/org/json/junit/data/GenericBean.java DONE
+[30255][   progress] src/main/java/org/json/CDL.java starting
+[30255][   progress] src/main/java/org/json/CDL.java DONE
+[30255][   progress] src/main/java/org/json/Property.java starting
+[30255][   progress] src/main/java/org/json/Property.java DONE
+[30255][   progress] src/main/java/org/json/Cookie.java starting
+[30255][   progress] src/main/java/org/json/Cookie.java DONE
+[30255][   progress] src/main/java/org/json/JSONException.java starting
+[30255][   progress] src/main/java/org/json/JSONException.java DONE
+[30255][   progress] src/test/java/org/json/junit/JSONStringTest.java starting
+[30255][   progress] src/test/java/org/json/junit/JSONStringTest.java DONE
+[30255][   progress] src/main/java/org/json/CookieList.java starting
+[30255][   progress] src/main/java/org/json/CookieList.java DONE
+[30255][   progress] src/test/java/org/json/junit/data/MyBeanCustomNameSubClass.java starting
+[30255][   progress] src/test/java/org/json/junit/data/MyBeanCustomNameSubClass.java DONE
+[30255][   progress] src/test/java/org/json/junit/data/MyNumberContainer.java starting
+[30255][   progress] src/test/java/org/json/junit/data/MyNumberContainer.java DONE
+[30255][   progress] src/test/java/org/json/junit/data/BrokenToString.java starting
+[30255][   progress] src/test/java/org/json/junit/data/BrokenToString.java DONE
+[30255][   progress] src/main/java/org/json/JSONPropertyName.java starting
+[30255][   progress] src/main/java/org/json/JSONPropertyName.java DONE
+[30255][   progress] src/main/java/org/json/XMLXsiTypeConverter.java starting
+[30255][   progress] src/main/java/org/json/XMLXsiTypeConverter.java DONE
+[30255][   progress] src/test/java/org/json/junit/XMLConfigurationTest.java starting
+[30256][   progress] src/test/java/org/json/junit/CDLTest.java DONE
+[30256][   progress] src/main/java/org/json/XMLTokener.java starting
+[30256][   progress] src/main/java/org/json/XMLTokener.java DONE
+[30256][   progress] src/main/java/org/json/JSONPropertyIgnore.java starting
+[30256][   progress] src/main/java/org/json/JSONPropertyIgnore.java DONE
+[30256][   progress] src/test/java/org/json/junit/data/ExceptionalBean.java starting
+[30256][   progress] src/test/java/org/json/junit/data/ExceptionalBean.java DONE
+[30256][   progress] src/test/java/org/json/junit/JSONObjectLocaleTest.java starting
+[30256][   progress] src/test/java/org/json/junit/JSONObjectLocaleTest.java DONE
+[30256][   progress] src/test/java/org/json/junit/data/MyBean.java starting
+[30256][   progress] src/test/java/org/json/junit/data/MyBean.java DONE
+[30256][   progress] src/test/java/org/json/junit/data/MyEnumField.java starting
+[30256][   progress] src/test/java/org/json/junit/data/MyEnumField.java DONE
+[30256][   progress] src/main/java/org/json/JSONPointerException.java starting
+[30256][   progress] src/main/java/org/json/JSONPointerException.java DONE
+[30256][   progress] src/test/java/org/json/junit/data/MyBeanCustomName.java starting
+[30256][   progress] src/test/java/org/json/junit/data/MyBeanCustomName.java DONE
+[30256][   progress] src/main/java/org/json/JSONML.java starting
+[30256][   progress] src/main/java/org/json/JSONML.java DONE
+[30256][   progress] src/test/java/org/json/junit/data/Fraction.java starting
+[30256][   progress] src/test/java/org/json/junit/data/Fraction.java DONE
+[30256][   progress] src/test/java/org/json/junit/data/MyNumber.java starting
+[30256][   progress] src/test/java/org/json/junit/data/MyNumber.java DONE
+[30256][   progress] src/main/java/org/json/XMLParserConfiguration.java starting
+[30256][   progress] src/main/java/org/json/XMLParserConfiguration.java DONE
+[30256][   progress] src/test/java/org/json/junit/data/MyEnum.java starting
+[30256][   progress] src/test/java/org/json/junit/data/MyEnum.java DONE
+[30256][   progress] src/main/java/org/json/JSONString.java starting
+[30256][   progress] src/main/java/org/json/JSONString.java DONE
+[30256][   progress] src/test/java/org/json/junit/HTTPTest.java starting
+[30256][   progress] src/test/java/org/json/junit/HTTPTest.java DONE
+[30256][   progress] src/test/java/org/json/junit/CookieListTest.java starting
+[30256][   progress] src/test/java/org/json/junit/CookieListTest.java DONE
+[30256][   progress] src/test/java/org/json/junit/data/GenericBeanInt.java starting
+[30256][   progress] src/test/java/org/json/junit/data/GenericBeanInt.java DONE
+[30256][   progress] src/main/java/org/json/JSONWriter.java starting
+[30256][   progress] src/main/java/org/json/JSONWriter.java DONE
+[30256][   progress] src/test/java/org/json/junit/data/StringsResourceBundle.java starting
+[30256][   progress] src/test/java/org/json/junit/data/StringsResourceBundle.java DONE
+[30256][   progress] src/test/java/org/json/junit/XMLTest.java starting
+[30255][   progress] src/test/java/org/json/junit/XMLConfigurationTest.java DONE
+[30255][   progress] src/test/java/org/json/junit/JSONObjectTest.java starting
+[30256][   progress] src/test/java/org/json/junit/XMLTest.java DONE
+[30256][   progress] src/test/java/org/json/junit/JSONTokenerTest.java starting
+[30256][   progress] src/test/java/org/json/junit/JSONTokenerTest.java DONE
+[30255][   progress] src/test/java/org/json/junit/JSONObjectTest.java DONE
+[30204][      debug] Backend stats:
+[30204][      debug]   summary_file_try_load= 32655
+[30204][      debug]   summary_read_from_disk= 791
+[30204][      debug]   summary_cache_hits= 45631 (58%)
+[30204][      debug]   summary_cache_misses= 32655
+[30204][      debug]   ondemand_procs_analyzed= 1019
+[30204][      debug]   ondemand_local_cache_hits= 38825 (95%)
+[30204][      debug]   ondemand_local_cache_misses= 1971
+[30204][      debug]   proc_locker_lock_time_user= 0.00000000
+[30204][      debug]   proc_locker_lock_time_sys= 0.00000000
+[30204][      debug]   proc_locker_lock_time_wall= 0.00000000
+[30204][      debug]   proc_locker_unlock_time_user= 0.00000000
+[30204][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[30204][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[30204][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[30204][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[30204][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[30204][      debug]   restart_scheduler_total_time_user= 0.00000000
+[30204][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[30204][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[30204][      debug]   
+[30204][      debug] GC stats for backend_stats.gc_stats_add.:
+[30204][      debug]   minor_words: 2.87037e+10
+[30204][      debug]   promoted_words: 1.29443e+08
+[30204][      debug]   major_words: 1.6599e+08
+[30204][      debug]   minor_collections: 27459
+[30204][      debug]   major_collections: 184
+[30204][      debug]   compactions: 0
+[30204][      debug]   top_heap_words: 15334400
+[30204][      debug]   
+[30204][      debug] GC stats for backend_stats.gc_stats_max.:
+[30204][      debug]   minor_words: 1.57781e+10
+[30204][      debug]   promoted_words: 7.42576e+07
+[30204][      debug]   major_words: 9.28394e+07
+[30204][      debug]   minor_collections: 15091
+[30204][      debug]   major_collections: 94
+[30204][      debug]   compactions: 0
+[30204][      debug]   top_heap_words: 8202240
+[30204][      debug]   
+[30204][      debug] Average over 2 processes
+[30204][      debug] GC stats for backend_stats.gc_stats_average.:
+[30204][      debug]   minor_words: 1.43519e+10
+[30204][      debug]   promoted_words: 6.47216e+07
+[30204][      debug]   major_words: 8.29948e+07
+[30204][      debug]   minor_collections: 13729
+[30204][      debug]   major_collections: 92
+[30204][      debug]   compactions: 0
+[30204][      debug]   top_heap_words: 7667200
+[30204][      debug]   
+[30204][      debug] Analysis phase finished in 45.592s
+[30204][      debug] backend_stats.scheduler_process_analysis_time_user= 0.27188700
+[30204][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.14091900
+[30204][      debug] backend_stats.scheduler_process_analysis_time_wall= 45.59213999
+[30204][      debug] GC stats for analysis_scheduler:
+[30204][      debug]   minor_words: 3.23722e+07
+[30204][      debug]   promoted_words: 48316
+[30204][      debug]   major_words: 57022
+[30204][      debug]   minor_collections: 33
+[30204][      debug]   major_collections: 6
+[30204][      debug]   compactions: 1
+[30204][      debug]   top_heap_words: 1006592
+[30204][      debug]   
+[30204][      debug] GC stats for report:
+[30204][      debug]   minor_words: 760639
+[30204][      debug]   promoted_words: 4572
+[30204][      debug]   major_words: 128797
+[30204][      debug]   minor_collections: 1
+[30204][      debug]   major_collections: 0
+[30204][      debug]   compactions: 0
+[30204][      debug]   top_heap_words: 1006592
+[30204][      debug]   
+[30204][      debug] GC stats for main_process_full:
+[30204][      debug]   minor_words: 3.61693e+07
+[30204][      debug]   promoted_words: 487660
+[30204][      debug]   major_words: 1.27162e+06
+[30204][      debug]   minor_collections: 46
+[30204][      debug]   major_collections: 11
+[30204][      debug]   compactions: 3
+[30204][      debug]   top_heap_words: 1006592
+[30204][      debug]   
+[30207][      debug] Sqlite write daemon: terminating

@@ -1,0 +1,9 @@
+tmp/*
+build/*
+output/*
+
+debian/triplegeo.debhelper.log
+debian/files
+debian/triplegeo/*
+
+

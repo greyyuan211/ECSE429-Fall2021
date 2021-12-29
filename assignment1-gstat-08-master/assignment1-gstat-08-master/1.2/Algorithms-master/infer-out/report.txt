@@ -1,0 +1,49 @@
+#0
+src/main/java/com/github/pedrovgs/problem45/FindNthMostRepeatedElement.java:45: error: Inefficient Keyset Iterator
+  Accessing a value using a key that was retrieved from a `keySet` iterator. It is more efficient to use an iterator on the `entrySet` of the map, avoiding the extra `HashMap.get(key)` lookup.
+  43.       }
+  44.       for (Integer candidate : counter.keySet()) {
+  45. >       if (counter.get(candidate) == position) {
+  46.           result = candidate;
+  47.           break;
+
+#1
+src/main/java/com/github/pedrovgs/problem45/FindNthMostRepeatedElement.java:45: error: Null Dereference
+  object returned by `counter.get(candidate)` could be null and is dereferenced at line 45.
+  43.       }
+  44.       for (Integer candidate : counter.keySet()) {
+  45. >       if (counter.get(candidate) == position) {
+  46.           result = candidate;
+  47.           break;
+
+#2
+src/main/java/com/github/pedrovgs/problem57/RemoveListDuplicatedElements.java:43: error: Null Dereference
+  object `prevNode` last assigned on line 40 could be null and is dereferenced at line 43.
+  41.       while (currentNode != null) {
+  42.         if (elements.contains(currentNode.getData())) {
+  43. >         prevNode.setNext(currentNode.getNext());
+  44.         } else {
+  45.           elements.add(currentNode.getData());
+
+#3
+src/test/java/com/github/pedrovgs/problem22/ReverseLinkedListTest.java:60: error: Null Dereference
+  object returned by `reversedList.getNext().getNext()` could be null and is dereferenced at line 60.
+  58.       assertEquals(n3, reversedList.getNext());
+  59.       assertEquals(n2, reversedList.getNext().getNext());
+  60. >     assertEquals(head, reversedList.getNext().getNext().getNext());
+  61.     }
+  62.   
+
+#4
+src/test/java/com/github/pedrovgs/problem22/ReverseLinkedListTest.java:59: error: Null Dereference
+  object returned by `reversedList.getNext()` could be null and is dereferenced at line 59.
+  57.       assertEquals(n4, reversedList);
+  58.       assertEquals(n3, reversedList.getNext());
+  59. >     assertEquals(n2, reversedList.getNext().getNext());
+  60.       assertEquals(head, reversedList.getNext().getNext().getNext());
+  61.     }
+
+Found 5 issues
+                                Issue Type(ISSUED_TYPE_ID): #
+                        Null Dereference(NULL_DEREFERENCE): 4
+  Inefficient Keyset Iterator(INEFFICIENT_KEYSET_ITERATOR): 1

@@ -1,0 +1,89 @@
+<project name="triplegeo">
+
+    <property name="src_dir" value="src" />
+    <property name="build_dir" value="build" />
+    <property name="lib_dir" value="lib" />
+    <property name="global.lib_dir" value="/usr/share/java" />
+
+    <path id="cp1">
+        <!--<pathelement path="/usr/share/java/log4j-1.2.jar"/>-->
+        <fileset dir="${global.lib_dir}" includes="**/*.jar" />
+        <fileset dir="${lib_dir}" includes="**/*.jar" />
+    </path>
+
+    <target name="clean">
+        <delete dir="${build_dir}/classes"/>
+        <delete dir="${build_dir}/jars"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${build_dir}/classes"/>
+        <javac includeantruntime="false" srcdir="${src_dir}" destdir="${build_dir}/classes" classpathref="cp1" >
+            <compilerarg value="-Xlint:unchecked"/>
+            <compilerarg value="-Xlint:deprecation"/>
+        </javac>
+    </target>
+
+    <target name="package" depends="compile">
+        <mkdir dir="${build_dir}/jars"/>
+        <jar destfile="${build_dir}/jars/${ant.project.name}.jar" basedir="${build_dir}/classes">
+            <manifest>
+                <attribute name="Main-Class" value="eu.geoknow.athenarc.triplegeo.ShpToRdf"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="run-on-shp" depends="package">
+        <java fork="true" classname="eu.geoknow.athenarc.triplegeo.ShpToRdf">
+            <classpath>
+                <path refid="cp1"/>
+                <path location="${build_dir}/jars/${ant.project.name}.jar"/>
+            </classpath>
+            <arg value="${config}"/>
+        </java>
+    </target>
+    
+    <target name="run-on-rdb" depends="package">
+        <java fork="true" classname="eu.geoknow.athenarc.triplegeo.wkt.RdbToRdf">
+            <classpath>
+                <path refid="cp1"/>
+                <path location="${build_dir}/jars/${ant.project.name}.jar"/>
+            </classpath>
+            <arg value="${config}"/>
+        </java>
+    </target>
+   
+    <target name="run-on-gml" depends="package">
+        <java fork="true" classname="eu.geoknow.athenarc.triplegeo.GmlToRdf">
+            <classpath>
+                <path refid="cp1"/>
+                <path location="${build_dir}/jars/${ant.project.name}.jar"/>
+            </classpath>
+            <arg value="${input}"/>
+            <arg value="${output}"/>
+        </java>
+    </target>
+    
+    <target name="run-on-kml" depends="package">
+        <java fork="true" classname="eu.geoknow.athenarc.triplegeo.KmlToRdf">
+            <classpath>
+                <path refid="cp1"/>
+                <path location="${build_dir}/jars/${ant.project.name}.jar"/>
+            </classpath>
+            <arg value="${input}"/>
+            <arg value="${output}"/>
+        </java>
+    </target>
+    
+    <target name="run-on-inspire" depends="package">
+        <java fork="true" classname="eu.geoknow.athenarc.triplegeo.InspireToRdf">
+            <classpath>
+                <path refid="cp1"/>
+                <path location="${build_dir}/jars/${ant.project.name}.jar"/>
+            </classpath>
+            <arg value="${input}"/>
+            <arg value="${output}"/>
+        </java>
+    </target>
+
+</project>

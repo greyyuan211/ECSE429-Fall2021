@@ -1,0 +1,120 @@
+#0
+src/test/java/org/json/junit/EnumTest.java:106: error: Null Dereference
+  object `names` last assigned on line 104 could be null and is dereferenced by call to `JSONObject(...)` at line 106.
+  104.           names = JSONObject.getNames(myEnum);
+  105.           // The values will be MyEnum fields
+  106. >         jsonObject = new JSONObject(myEnum, names);
+  107.   
+  108.           // validate JSON object
+
+#1
+src/test/java/org/json/junit/EnumTest.java:118: error: Null Dereference
+  object `names` last assigned on line 116 could be null and is dereferenced by call to `JSONObject(...)` at line 118.
+  116.           names = JSONObject.getNames(myEnumField);
+  117.           // The values will be MyEnmField fields
+  118. >         jsonObject = new JSONObject(myEnumField, names);
+  119.           doc = Configuration.defaultConfiguration().jsonProvider().parse(jsonObject.toString());
+  120.           assertTrue("expected 3 top level items", ((Map<?,?>)(JsonPath.read(doc, "$"))).size() == 3);
+
+#2
+src/test/java/org/json/junit/CDLTest.java:159: error: Null Dereference
+  object `cdlStr` last assigned on line 158 could be null and is dereferenced at line 159.
+  157.                  
+  158.                  String cdlStr = CDL.toString(jsonArray);
+  159. >                assertTrue(cdlStr.contains("Col1"));
+  160.                  assertTrue(cdlStr.contains("Col2"));
+  161.                  assertTrue(cdlStr.contains("Val1"));
+
+#3
+src/test/java/org/json/junit/CDLTest.java:175: error: Null Dereference
+  object `cdlStr` last assigned on line 174 could be null and is dereferenced at line 175.
+  173.                  
+  174.                  String cdlStr = CDL.toString(jsonArray);
+  175. >                assertTrue(cdlStr.contains("Col1"));
+  176.                  assertTrue(cdlStr.contains("Col2"));
+  177.                  assertTrue(cdlStr.contains("Val1"));
+
+#4
+src/test/java/org/json/junit/CDLTest.java:207: error: Null Dereference
+  object `null` is dereferenced by call to `toString(...)` at line 207.
+  205.       @Test(expected=NullPointerException.class)
+  206.       public void nullJSONArrayToString() {
+  207. >         CDL.toString((JSONArray)null);
+  208.       }
+  209.   
+
+#5
+src/test/java/org/json/junit/EnumTest.java:265: error: Null Dereference
+  object `names` last assigned on line 264 could be null and is dereferenced by call to `JSONObject(...)` at line 265.
+  263.   
+  264.           String [] names = JSONObject.getNames(myEnum);
+  265. >         jsonObject = new JSONObject(myEnum, names);
+  266.   
+  267.           // validate JSON content
+
+#6
+src/test/java/org/json/junit/CDLTest.java:259: error: Null Dereference
+  object `null` is dereferenced by call to `toString(...)` at line 259.
+  257.       @Test
+  258.       public void nullJSONArraysToString() {
+  259. >         String str = CDL.toString(null, null);
+  260.           assertNull("CDL should return null for toString(null)",
+  261.                   str);
+
+#7
+src/main/java/org/json/JSONArray.java:761: error: Null Dereference
+  object `val` last assigned on line 757 could be null and is dereferenced at line 761.
+  759.                   return defaultValue;
+  760.               }
+  761. >             if (clazz.isAssignableFrom(val.getClass())) {
+  762.                   // we just checked it!
+  763.                   @SuppressWarnings("unchecked")
+
+#8
+src/main/java/org/json/JSONArray.java:940: error: Null Dereference
+  object `object` last assigned on line 938 could be null and is dereferenced at line 940.
+  938.           Object object = this.opt(index);
+  939.           return JSONObject.NULL.equals(object) ? defaultValue : object
+  940. >                 .toString();
+  941.       }
+  942.   
+
+#9
+src/main/java/org/json/JSONObject.java:1084: error: Null Dereference
+  object `val` last assigned on line 1080 could be null and is dereferenced at line 1084.
+  1082.                   return defaultValue;
+  1083.               }
+  1084. >             if (clazz.isAssignableFrom(val.getClass())) {
+  1085.                   // we just checked it!
+  1086.                   @SuppressWarnings("unchecked")
+
+#10
+src/main/java/org/json/JSONObject.java:1479: error: Null Dereference
+  object `val` last assigned on line 1470 could be null and is dereferenced at line 1479.
+  1477.   
+  1478.           try {
+  1479. >             return stringToNumber(val.toString());
+  1480.           } catch (Exception e) {
+  1481.               return defaultValue;
+
+#11
+src/main/java/org/json/JSONObject.java:1510: error: Null Dereference
+  object `object` last assigned on line 1509 could be null and is dereferenced at line 1510.
+  1508.       public String optString(String key, String defaultValue) {
+  1509.           Object object = this.opt(key);
+  1510. >         return NULL.equals(object) ? defaultValue : object.toString();
+  1511.       }
+  1512.   
+
+#12
+src/test/java/org/json/junit/JSONObjectTest.java:2991: error: Null Dereference
+  object `map` last assigned on line 2988 could be null and is dereferenced at line 2991.
+  2989.   
+  2990.           assertTrue("Map should not be null", map != null);
+  2991. >         assertTrue("Map should have 3 elements", map.size() == 3);
+  2992.   
+  2993.           List<?> key1List = (List<?>)map.get("key1");
+
+Found 13 issues
+          Issue Type(ISSUED_TYPE_ID): #
+  Null Dereference(NULL_DEREFERENCE): 13

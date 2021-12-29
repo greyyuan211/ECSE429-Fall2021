@@ -1,0 +1,35 @@
+Apache Ant(TM) version 1.10.11 compiled on July 10 2021
+Trying the default build file: build.xml
+Buildfile: /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build.xml
+Detected Java version: 17 in: /usr/local/Cellar/openjdk/17/libexec/openjdk.jdk/Contents/Home
+Detected OS: Mac OS X
+parsing buildfile /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build.xml with URI = file:/Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build.xml
+Project base dir set to: /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master
+parsing buildfile jar:file:/usr/local/Cellar/ant/1.10.11/libexec/lib/ant.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/usr/local/Cellar/ant/1.10.11/libexec/lib/ant.jar!/org/apache/tools/ant/antlib.xml from a zip file
+Build sequence for target(s) `compile' is [compile]
+Complete build sequence is [compile, package, run-on-kml, run-on-rdb, clean, run-on-gml, run-on-shp, run-on-inspire, ]
+
+compile:
+    [mkdir] Skipping /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes because it already exists.
+    [javac] eu/geoknow/athenarc/triplegeo/Constants.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/Constants.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/GmlToRdf.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/GmlToRdf.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/InspireToRdf.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/InspireToRdf.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/KmlToRdf.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/KmlToRdf.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/MetadataToRdf.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/MetadataToRdf.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/ShpToRdf.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/ShpToRdf.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/db/DB2DbConnector.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/db/DB2DbConnector.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/db/DbConnector.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/db/DbConnector.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/db/DbConstants.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/db/DbConstants.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/db/MsAccessDbConnector.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/db/MsAccessDbConnector.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/db/MySqlDbConnector.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/db/MySqlDbConnector.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/db/OracleDbConnector.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/db/OracleDbConnector.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/db/PostgresqlDbConnector.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/db/PostgresqlDbConnector.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/shape/ShpConnector.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/shape/ShpConnector.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/shape/URLConstants.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/shape/URLConstants.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/utils/Configuration.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/utils/Configuration.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/utils/UtilsConstants.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/utils/UtilsConstants.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/utils/UtilsLib.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/utils/UtilsLib.class is up to date.
+    [javac] eu/geoknow/athenarc/triplegeo/wkt/RdbToRdf.java omitted as /Users/srx/Documents/GitHub/assignment1-gstat-08/1.3/TripleGeo-master/build/classes/eu/geoknow/athenarc/triplegeo/wkt/RdbToRdf.class is up to date.
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
